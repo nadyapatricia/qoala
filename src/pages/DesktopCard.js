@@ -78,8 +78,10 @@ const Header = styled.p`
 `;
 
 const StyledCard = styled(Card)`
-  min-width: 300px;
+  width: 350px;
   margin-right: 20px;
+  min-height: 423px;
+
   &:last-child {
     margin-right: 0;
   }

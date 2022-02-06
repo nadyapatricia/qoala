@@ -80,7 +80,8 @@ const Header = styled.p`
 `;
 
 const StyledCard = styled(Card)`
-  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: 100%;
   margin-bottom: 20px;
   &:last-child {
     margin-bottom: 0;
