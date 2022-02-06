@@ -17,6 +17,7 @@ export default function DesktopCard({ user }) {
         </>
       }
       extra={<EllipsisOutlined />}
+      id={id}
     >
       <ContentWrapper>
         <Avatar
@@ -27,7 +28,11 @@ export default function DesktopCard({ user }) {
         <UserBarBody>
           <Details>
             <Header>Name</Header>
-            <Content>{`${title} ${firstName} ${lastName}, ${age}`}</Content>
+            <Content>{`${title} ${firstName} ${lastName}`}</Content>
+          </Details>
+          <Details>
+            <Header>Age</Header>
+            <Content>{`${age}`}</Content>
           </Details>
           <Details>
             <Header>Address</Header>
