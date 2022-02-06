@@ -1,0 +1,14 @@
+/* Navigation bar css overrides in mobile view */
+@media not all and (min-width: 992px) {
+  .ant-layout-sider {
+    position: fixed;
+    z-index: 100;
+    min-height: 100vh;
+  }
+}
+
+/* Override antd css */
+.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  margin-top: -50px;
+  opacity: 50%;
+}

@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
+import './index.css';
 
 import { QoalaLogo, NavigationBar, LoadingPage } from './components';
 
