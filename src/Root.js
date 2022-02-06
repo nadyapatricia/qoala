@@ -19,8 +19,6 @@ export default function Root() {
 
   const { currentPage, pageLimit } = filterValues;
 
-  console.log(users);
-
   useEffect(() => {
     dispatch(getUserData());
     dispatch(getTotalCount());
